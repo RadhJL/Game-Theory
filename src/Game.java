@@ -24,7 +24,6 @@ public class Game {
 		nb_stra = new ArrayList<Integer>();
         Collections.addAll(nb_stra , nb_strategies);
 		nb_joueurs = nb_stra.size();
-		
 		map = new LinkedHashMap<ArrayList<Integer>,ArrayList<Integer>>(); 
 		all_strategies = GenerateAllStrategies(nb_stra,0,new ArrayList<Integer>(),new ArrayList<ArrayList<Integer>>());
 
